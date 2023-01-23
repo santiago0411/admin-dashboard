@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
@@ -28,7 +27,6 @@ function App() {
                 <main className="content">
                     <Topbar/>
                     <Routes>
-                        <Route path="/" element={<Dashboard/>}/>
                         <Route path="/team" element={<Team/>}/>
                         <Route path="/contacts" element={<Contacts/>}/>
                         <Route path="/invoices" element={<Invoices/>}/>
@@ -39,6 +37,7 @@ function App() {
                         <Route path="/pie" element={<Pie/>}/>
                         <Route path="/line" element={<Line/>}/>
                         <Route path="/geography" element={<Geography/>}/>
+                        <Route path="*" element={<Dashboard/>}/>
                     </Routes>
                 </main>
             </div>

@@ -1,14 +1,5 @@
 import { createContext, useState, useMemo } from "react";
-import {createTheme, ThemeOptions} from "@mui/material/styles";
-import {MixinsOptions} from "@mui/material/styles/createMixins";
-import {Components} from "@mui/material/styles/components";
-import {Palette, PaletteOptions} from "@mui/material/styles/createPalette";
-import {Shadows} from "@mui/material/styles/shadows";
-import {TransitionsOptions} from "@mui/material/styles/createTransitions";
-import {TypographyOptions} from "@mui/material/styles/createTypography";
-import {ZIndexOptions} from "@mui/material/styles/zIndex";
-import {SxConfig} from "@mui/system";
-import {Theme} from "@mui/material/styles/createTheme";
+import {createTheme} from "@mui/material/styles";
 
 export interface ColorTheme {
     100: string;

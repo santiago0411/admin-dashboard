@@ -2,6 +2,6 @@
 
 An Admin Dashboard created with React and Typescript.
 
-Try it [here.](http://localhost:3000)
+Try it [here.](https://santiago0411.github.io/admin-dashboard/)
 
 ![Showcase](display.png?raw=true)

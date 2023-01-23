@@ -6,7 +6,6 @@ import {
     DateSelectArg,
     EventApi,
     EventClickArg,
-    EventInput,
     formatDate
 } from "@fullcalendar/core";
 import dayGridPlugin from "@fullcalendar/daygrid";
